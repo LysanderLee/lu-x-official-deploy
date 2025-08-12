@@ -18,7 +18,7 @@ export const articles: Article[] = [
   {
     id: 1,
     title: { id: 'Daily Cover Terbaru: Lysander & Shalvatore - Cintanya Aku', en: 'New Daily Cover: Lysander & Shalvatore - Cintanya Aku', ja: '新作デイリーカバー：リサンダー＆シャルヴァトーレ「Cintanya Aku」', ko: '새 데일리 커버: 리산더 & 샬바토레 - Cintanya Aku' },
-    date: '2024-07-28',
+    date: '2025-08-09',
     category: { id: 'Rilisan Musik', en: 'Music Release', ja: '音楽リリース', ko: '음악 발매' },
     imageUrl: '/img/cintanya-aku.jpg',
     excerpt: { id: "Lysander Lee dan Shalvatore berkolaborasi dalam cover emosional lagu populer 'Cintanya Aku' oleh Arsy Widianto & Tiara Andini.", en: "Lysander Lee and Shalvatore collaborate on an emotional cover of the popular song 'Cintanya Aku' by Arsy Widianto & Tiara Andini.", ja: 'リサンダー・リーとシャルヴァトーレが、Arsy Widianto & Tiara Andiniの人気曲「Cintanya Aku」を感情豊かにカバーでコラボレーション。', ko: '리산더 리와 샬바토레가 Arsy Widianto & Tiara Andini의 인기곡 Cintanya Aku를 감성적인 커버로 콜라보합니다.' },
