@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LU:X OFFICIAL</title>
+    <meta name="description" content="Portal resmi LU:X OFFICIAL, komunitas khusus cover lagu. Temukan anggota kami, cover terbaru, dan perjalanan kreatif kami." />
+    <link rel="icon" sizes="150x150" href="/img/favicon.ico" type="image/x-icon" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+            },
+            colors: {
+              black: '#111111',
+              white: '#FFFFFF',
+              gray: {
+                100: '#f7f7f7',
+                200: '#e5e5e5',
+                300: '#d4d4d4',
+                400: '#a3a3a3',
+                500: '#737373',
+                600: '#525252',
+                700: '#404040',
+                800: '#262626',
+                900: '#171717',
+              },
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out forwards',
+              'slide-up-fade': 'slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideUpFade: {
+                '0%': { opacity: '0', transform: 'translateY(12px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      /* For custom scrollbar styling if needed, otherwise Tailwind handles most things */
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lux-official-website.vercel.app/">
+    <meta property="og:title" content="LU:X OFFICIAL">
+    <meta property="og:description" content="Portal resmi LU:X OFFICIAL: Komunitas Cover Lagu, Anggota, dan Proyek Terbaru.">
+    <meta property="og:image" content="https://picsum.photos/1200/630?grayscale">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://lux-official-website.vercel.app/">
+    <meta property="twitter:title" content="LU:X OFFICIAL">
+    <meta property="twitter:description" content="Portal resmi LU:X OFFICIAL: Komunitas Cover Lagu, Anggota, dan Proyek Terbaru.">
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?grayscale">
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white dark:bg-black text-black dark:text-white font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
